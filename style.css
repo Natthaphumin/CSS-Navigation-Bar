@@ -1,0 +1,42 @@
+nav {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: antiquewhite;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-weight: bold;
+}
+.logo:hover {
+  color: green;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 12px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #f7f7f7;
+  background-color: green;
+}
+
+li:hover a {
+  color: #fff;
+}
